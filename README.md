@@ -20,9 +20,9 @@
 
 ##index.html
 ###Starting point:
-PageSpeed Mobile: 28
-PageSpeed Desktop: 30
-Webpagetest 3G: fully loaded 15s
+	PageSpeed Mobile: 28
+	PageSpeed Desktop: 30
+	Webpagetest 3G: fully loaded 15s
 
 1. Optimised pizzeria.jpg from 1 very large 2Mb to 2 images: one 293px w and one 720px w (based on their used in pizza.html)
 2. used pizza_293.jpg in index.html
@@ -36,9 +36,9 @@ Webpagetest 3G: fully loaded 15s
 10. Minified HTML
 
 ###Results:
-PageSpeed Mobile: 94
-PageSpeed Desktop: 91
-Webpagetest 3G: fully Loaded 2.3s
+	PageSpeed Mobile: 94
+	PageSpeed Desktop: 91
+	Webpagetest 3G: fully Loaded 2.3s
 
 ##pizza.html
 ###Starting point (from source):
