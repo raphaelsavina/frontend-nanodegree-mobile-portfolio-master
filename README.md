@@ -62,4 +62,8 @@
 	2015-12-13 17:07:13.695 main.js:468 Time to resize pizzas: 4.330000000009022ms
 	2015-12-13 17:07:16.534 main.js:496 Average time to generate last 10 frames: 0.37499999999854483ms
 
+#TO DO:
+1. See if using web workers for some of the functions would help performaances
+2. There are no timer but maybe it would be possible to implement ```requestAnimationFrame```
+3. Improve the design of the pizzeria page, lots to be done here
 
