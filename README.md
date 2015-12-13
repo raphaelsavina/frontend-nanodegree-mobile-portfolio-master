@@ -49,11 +49,11 @@
 
 1. Optimise pizzeria images, serving 2 versions media queries.
 2. Work on updatePositions:
-a. move "document.body.scrollTop / 1250" out of the for loop
-b. added will-change: transform; to .main in style.css
-c. changed left to transformX
-d. No need to transform 200 pizzas, so get numbers of cols and rows to have the minimum visible requirement.
-e. for resize pizza, no need to calc dx & newwidth in the for loop, all same size so getting these from [0] is enough
+  a. move "document.body.scrollTop / 1250" out of the for loop
+  b. added will-change: transform; to .main in style.css
+  c. changed left to transformX
+  d. No need to transform 200 pizzas, so get numbers of cols and rows to have the minimum visible requirement.
+  e. Resize pizza, no need to calc dx & newwidth in the for loop, all same size so getting these from [0] is enough
 
 ###Results:
 	2015-12-13 17:07:10.162 main.js:496 Average time to generate last 10 frames: 0.3145000000018626ms
