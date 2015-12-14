@@ -49,18 +49,20 @@
 
 1. Optimise pizzeria images, serving 2 versions media queries.
 2. Work on updatePositions:
-  1. move "document.body.scrollTop / 1250" out of the for loop
+  1. moved "document.body.scrollTop / 1250" out of the for loop
   2. added will-change: transform; to .main in style.css
   3. changed left to transformX
   4. No need to transform 200 pizzas, so get numbers of cols and rows to have the minimum visible requirement.
   5. Resize pizza, no need to calc dx & newwidth in the for loop, all same size so getting these from [0] is enough
+  6. changed ```querySelectorAll``` with ```getElementsByClassName```
+  7. got size of array before loop
 
 ###Results:
-	2015-12-13 17:07:10.162 main.js:496 Average time to generate last 10 frames: 0.3145000000018626ms
-	2015-12-13 17:07:10.409 main.js:496 Average time to generate last 10 frames: 0.4790000000037253ms
-	2015-12-13 17:07:12.541 main.js:468 Time to resize pizzas: 4.330000000009022ms
-	2015-12-13 17:07:13.695 main.js:468 Time to resize pizzas: 4.330000000009022ms
-	2015-12-13 17:07:16.534 main.js:496 Average time to generate last 10 frames: 0.37499999999854483ms
+	2015-12-14 21:24:04.349 main.js:523 Average time to generate last 10 frames: 0.29600000000000365ms
+	2015-12-14 21:24:04.516 main.js:523 Average time to generate last 10 frames: 0.3085000000001855ms
+	2015-12-14 21:24:07.908 main.js:495 Time to resize pizzas: 1.4599999999991269ms
+	2015-12-14 21:24:09.894 main.js:495 Time to resize pizzas: 1.4599999999991269ms
+	2015-12-14 21:24:12.669 main.js:523 Average time to generate last 10 frames: 0.2565000000002328ms
 
 #TO DO:
 1. See if using web workers for some of the functions would help performaances
